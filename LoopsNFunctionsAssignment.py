@@ -89,6 +89,7 @@ def withdrawalOperation():
         print('Take your cash')
     else:
         print("Invalid amount, please choose an amount in 100s")
+        withdrawalOperation()
 
 def depositOperation():
     amount = input('How much would you like to deposit? \n')
@@ -97,6 +98,7 @@ def depositOperation():
         print('Thank you for banking with us')
     else:
         print("Invalid amount, please choose an amount in 100s")
+        depositOperation()
 
 def generateAccountNumber():
 
